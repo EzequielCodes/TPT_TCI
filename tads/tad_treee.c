@@ -51,14 +51,14 @@ tData CargaLista(){
 }
 void Mostrar(tData L){
   if(L!=NULL){
-  printf("{")
+  printf("{");
    if(L->nodeType==str){
      print(L->data->strData);
    }
    else{
     Mostrar(L->data);
    }
-   printf("}")
+   printf("}");
    Mostrar(L->next);
   }
 }
