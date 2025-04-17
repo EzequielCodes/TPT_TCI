@@ -13,7 +13,7 @@ void enqueue(STR *, STR);
 
 STR create_node(char character) {
 	STR node;
-	node=(STR)malloc(sizeof(T_NODE));
+	node=(STR)malloc(sizeof(T_STR_NODE));
 	node->date=character;
 	node->next=NULL;
 	return(node);
