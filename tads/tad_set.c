@@ -18,7 +18,7 @@ void remove_duplicates(SET *);
 
 SET create_node_set() {
     SET node;
-    node=(SET)malloc(sizeof(T_NODE_SET));
+    node=(SET)malloc(sizeof(T_SET_NODE));
     node->date=load();
     node->next=NULL;
     return(node);
@@ -26,7 +26,7 @@ SET create_node_set() {
 
 SET create_node_set_2(STR string) {
     SET node;
-    node=(SET)malloc(sizeof(T_NODE_SET));
+    node=(SET)malloc(sizeof(T_SET_NODE));
     node->date=string;
     node->next=NULL;
     return(node);

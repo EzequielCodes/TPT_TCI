@@ -3,12 +3,12 @@
 
 /*Mathematic models*/
 
-typedef struct nodo {
+typedef struct nodo0 {
 	char date;
-	struct nodo* next;
-}T_NODE;
+	struct nodo0* next;
+}T_STR_NODE;
 
-typedef T_NODE* STR;
+typedef T_STR_NODE* STR;
 
 /*Mathematic models*/
 
