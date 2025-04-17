@@ -1,9 +1,12 @@
+#include "tad_treee.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "tad_tree.h"
-#include "tad_string.h"
+
+
 
 int main(){
-    
+    tData List;
+    List=CargaLista();
+    Mostrar(List);
     return 0;
 }

@@ -1,4 +1,4 @@
-#include "tad_tree.h"
+#include "tad_treee.h"
 #include <stdlib.h>
 
 
@@ -49,7 +49,19 @@ tData CargaLista(){
     }
     return nodo;
 }
-
+void Mostrar(tData L){
+  if(L!=NULL){
+  printf("{")
+   if(L->nodeType==str){
+     print(L->data->strData);
+   }
+   else{
+    Mostrar(L->data);
+   }
+   printf("}")
+   Mostrar(L->next);
+  }
+}
 //Esta es la carga recursiva, aun le faltan detalles como el que controle
 //si es un set, que no haya repetidos y asi. Me falto hacer el muestra pero
 //ese es facil, solo hay que ver el tipo de dato y ya, si es str, usamos el mostrar str
