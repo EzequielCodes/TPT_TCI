@@ -21,3 +21,4 @@ typedef struct dataType {
 typedef dataType* tData;
 
 tData CargaLista();
+tData Mostrar(tData);
