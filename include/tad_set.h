@@ -4,12 +4,12 @@
 
 /*Mathematic model*/
 
-typedef struct node1 {
+typedef struct node2 {
     STR date;
-    struct node1* next;
-}T_NODE_SET;
+    struct node2* next;
+}T_SET_NODE;
 
-typedef T_NODE_SET* SET;
+typedef T_SET_NODE* SET;
 
 /*Mathematic model*/
 
