@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include"tad_list.h"
+#include<stdlib.h>
 
 /*Private prototips*/
 
